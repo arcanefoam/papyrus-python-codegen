@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:org.eclipse.papyrus.designer.popup?after=codegen">
+         <command
+               commandId="org.eclipse.papyrus.designer.languages.python.codegen.command"
+               icon="icons/codegen.gif"
+               label="Generate Python code"
+               style="push"
+               tooltip="Generate Python code">
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="org.eclipse.papyrus.editor.category"
+            defaultHandler="org.eclipse.papyrus.designer.languages.python.codegen.ui.handlers.GenerateCodeHandler"
+            description="Generate Python Code"
+            id="org.eclipse.papyrus.designer.languages.python.codegen.command"
+            name="Generate Python Code">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="org.eclipse.papyrus.infra.core.sasheditor.preferences.generalcategory"
+            class="org.eclipse.papyrus.designer.languages.python.codegen.ui.preferemces.CodegenPreferencesPage"
+            id="org.eclipse.papyrus.designer.languages.python.codegen.ui.preferences.CodegenPreferencesPage"
+            name="Python code generation">
+      </page>
+   </extension>
+
+</plugin>
