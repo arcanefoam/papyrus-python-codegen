@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2wTFwPkDEeahpqxG03xEOw" name="RootElement">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uMtzwPkGEeahpqxG03xEOw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_CDBPsPqPEeaoZ5KOGz6osQ" name="RootElement" nsURI="http:///schemas/RootElement/_CDABkPqPEeaoZ5KOGz6osQ/1" nsPrefix="RootElement">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CDBPsfqPEeaoZ5KOGz6osQ" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_XFs04PkGEeahpqxG03xEOw"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CDFhIPqPEeaoZ5KOGz6osQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CDFhIfqPEeaoZ5KOGz6osQ" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CDFhIvqPEeaoZ5KOGz6osQ" key="Comment" value="Added Class Stereotype. Prefix P to signify python"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CDFhI_qPEeaoZ5KOGz6osQ" key="Copyright" value="Copyright 2017 Kinori Tech&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&#xD;&#xA;you may not use this file except in compliance with the License.&#xD;&#xA;You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;    http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software&#xD;&#xA;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xD;&#xA;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#xD;&#xA;See the License for the specific language governing permissions and&#xD;&#xA;limitations under the License."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CDFhJPqPEeaoZ5KOGz6osQ" key="Date" value="2017-02-24"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CDFhJfqPEeaoZ5KOGz6osQ" key="Author" value="Horacio Hoyos"/>
+      </eAnnotations>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_uMvB4PkGEeahpqxG03xEOw" name="RootElement" nsURI="http:///schemas/RootElement/_uMtMsPkGEeahpqxG03xEOw/0" nsPrefix="RootElement">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uMvB4fkGEeahpqxG03xEOw" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_XFs04PkGEeahpqxG03xEOw"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uMysQPkGEeahpqxG03xEOw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uMysQfkGEeahpqxG03xEOw" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uMysQvkGEeahpqxG03xEOw" key="Comment" value="A UML Profile to model Python projects"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uMysQ_kGEeahpqxG03xEOw" key="Copyright" value="Copyright 2017 Horacio Hoyos&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&#xD;&#xA;you may not use this file except in compliance with the License.&#xD;&#xA;You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;    http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software&#xD;&#xA;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xD;&#xA;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#xD;&#xA;See the License for the specific language governing permissions and&#xD;&#xA;limitations under the License."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uMysRPkGEeahpqxG03xEOw" key="Date" value="2017-02-22"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uMysRfkGEeahpqxG03xEOw" key="Author" value="Horacio Hoyos"/>
+      </eAnnotations>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Profile" xmi:id="_XFs04PkGEeahpqxG03xEOw" name="PythonProfile" metaclassReference="_qFkqAPqMEeaoZ5KOGz6osQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uMw3EPkGEeahpqxG03xEOw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_CDETAPqPEeaoZ5KOGz6osQ" name="PythonProfile" nsURI="http://RootElement/schemas/PythonProfile/_CDCd0PqPEeaoZ5KOGz6osQ/1" nsPrefix="PythonProfile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CDGvQvqPEeaoZ5KOGz6osQ" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CDGvQ_qPEeaoZ5KOGz6osQ" key="Version" value="0.0.2"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CDGvRPqPEeaoZ5KOGz6osQ" key="Comment" value="Added Class Stereotype. Prefix P to signify python"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CDGvRfqPEeaoZ5KOGz6osQ" key="Copyright" value="Copyright 2017 Kinori Tech&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&#xD;&#xA;you may not use this file except in compliance with the License.&#xD;&#xA;You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;    http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software&#xD;&#xA;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xD;&#xA;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#xD;&#xA;See the License for the specific language governing permissions and&#xD;&#xA;limitations under the License."/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CDGvRvqPEeaoZ5KOGz6osQ" key="Date" value="2017-02-24"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CDGvR_qPEeaoZ5KOGz6osQ" key="Author" value="Horacio Hoyos"/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_CDETAfqPEeaoZ5KOGz6osQ" name="PModule">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CDETAvqPEeaoZ5KOGz6osQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_achmwPkGEeahpqxG03xEOw"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CDETA_qPEeaoZ5KOGz6osQ" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_CDETBfqPEeaoZ5KOGz6osQ" name="PClass">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CDETBvqPEeaoZ5KOGz6osQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_EvboEPqOEeaoZ5KOGz6osQ"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CDETB_qPEeaoZ5KOGz6osQ" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CDETCfqPEeaoZ5KOGz6osQ" name="metaclass" ordered="false">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_uMw3EfkGEeahpqxG03xEOw" name="PythonProfile" nsURI="http://RootElement/schemas/PythonProfile/_uMwQAPkGEeahpqxG03xEOw/0" nsPrefix="PythonProfile">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uMzTUPkGEeahpqxG03xEOw" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uMzTUfkGEeahpqxG03xEOw" key="Version" value="0.0.1"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uMzTUvkGEeahpqxG03xEOw" key="Comment" value="A UML Profile to model Python projects"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uMzTU_kGEeahpqxG03xEOw" key="Copyright" value="Copyright 2017 Horacio Hoyos&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);&#xD;&#xA;you may not use this file except in compliance with the License.&#xD;&#xA;You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;    http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software&#xD;&#xA;distributed under the License is distributed on an &quot;AS IS&quot; BASIS,&#xD;&#xA;WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#xD;&#xA;See the License for the specific language governing permissions and&#xD;&#xA;limitations under the License."/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uMzTVPkGEeahpqxG03xEOw" key="Date" value="2017-02-22"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uMzTVfkGEeahpqxG03xEOw" key="Author" value="Horacio Hoyos"/>
+        </eAnnotations>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_uMw3EvkGEeahpqxG03xEOw" name="Module">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uMw3E_kGEeahpqxG03xEOw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_achmwPkGEeahpqxG03xEOw"/>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:type="uml:ElementImport" xmi:id="_qFkqAPqMEeaoZ5KOGz6osQ" alias="Class">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_achmwPkGEeahpqxG03xEOw" name="PModule">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vxg5IPqMEeaoZ5KOGz6osQ" name="base_Class" association="_vxMJAPqMEeaoZ5KOGz6osQ">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_vxMJAPqMEeaoZ5KOGz6osQ" name="E_PModule_Class1" memberEnd="_vxfrAPqMEeaoZ5KOGz6osQ _vxg5IPqMEeaoZ5KOGz6osQ">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_vxfrAPqMEeaoZ5KOGz6osQ" name="extension_PModule" type="_achmwPkGEeahpqxG03xEOw" aggregation="composite" association="_vxMJAPqMEeaoZ5KOGz6osQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_EvboEPqOEeaoZ5KOGz6osQ" name="PClass">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GvVDQPqOEeaoZ5KOGz6osQ" name="base_Class" association="_GvT1IPqOEeaoZ5KOGz6osQ">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YlksEPqOEeaoZ5KOGz6osQ" name="metaclass">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ftr-QPqOEeaoZ5KOGz6osQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ftz6EPqOEeaoZ5KOGz6osQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_GvT1IPqOEeaoZ5KOGz6osQ" name="E_PClass_Class1" memberEnd="_GvUcMPqOEeaoZ5KOGz6osQ _GvVDQPqOEeaoZ5KOGz6osQ">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_GvUcMPqOEeaoZ5KOGz6osQ" name="extension_PClass" type="_EvboEPqOEeaoZ5KOGz6osQ" aggregation="composite" association="_GvT1IPqOEeaoZ5KOGz6osQ"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Profile>
